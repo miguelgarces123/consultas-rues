@@ -1,0 +1,42 @@
+{
+    "name": "miguelgarces/consultas-rues",
+    "description": "Paquete para consultas en la pagina de RUES Colombia",
+    "type": "project",
+    "keywords": ["RUES", "Laravel"],
+    "require": {
+        "php": "^7.2|^8.0",
+        "fabpot/goutte": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5|^7.5|^8.5|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MiguelGarces\\ConsultasRues\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MiguelGarces\\ConsultasRues\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MiguelGarces\\ConsultasRues\\RuesServiceProvider"
+            ],
+            "aliases": {
+                "ConsultaRuesNit": "MiguelGarces\\ConsultasRues\\Facades\\ConsultaRuesNitFacade",
+                "ConsultaRuesNombre": "MiguelGarces\\ConsultasRues\\Facades\\ConsultaRuesNombreFacade"
+            }
+        }
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Miguel Garces",
+            "email": "miguelgarces2415@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
