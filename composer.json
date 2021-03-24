@@ -38,5 +38,5 @@
             "email": "miguelgarces2415@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
