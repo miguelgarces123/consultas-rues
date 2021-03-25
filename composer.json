@@ -2,6 +2,7 @@
     "name": "miguelgarces/consultas-rues",
     "description": "Paquete para consultas en la pagina de RUES Colombia",
     "type": "library",
+    "version": "1.0.0",
     "keywords": ["RUES", "Laravel"],
     "require": {
         "php": ">=7",
@@ -23,6 +24,9 @@
         }
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "8.x-dev"
+        },
         "laravel": {
             "providers": [
                 "MiguelGarces\\ConsultasRues\\RuesServiceProvider"
@@ -39,5 +43,7 @@
             "name": "Miguel Garces",
             "email": "miguelgarces2415@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
