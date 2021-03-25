@@ -1,11 +1,10 @@
-# Consultas Registro Único Empresarial y Social -RUES-
+# Consultar registro único empresarial y social -RUES-
 
-Paquete para consultas en la pagina de RUES Colombia con Laravel
+Paquete para consultas en la pagina de RUES Colombia con Laravel 6 o superior
 
 ## Requerimientos
 
 * Se requiere PHP 7.1 o superior.
-* Se requiere [fabpot/goutte](https://github.com/FriendsOfPHP/Goutte) 3.1 o superior 
 
 ## Instalación
 
