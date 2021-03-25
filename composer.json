@@ -5,7 +5,7 @@
     "keywords": ["RUES", "Laravel"],
     "require": {
         "php": ">=7",
-        "fabpot/goutte": "dev-master",
+        "fabpot/goutte": "^3.2",
         "illuminate/support": "^5.5|^6|^7|^8"
     },
     "require-dev": {
