@@ -2,7 +2,7 @@
     "name": "miguelgarces/consultas-rues",
     "description": "Paquete para consultas en la pagina de RUES Colombia",
     "type": "library",
-    "keywords": ["RUES", "Laravel"],
+    "keywords": ["RUES", "Laravel", "Scrapping"],
     "require": {
         "php": ">=7",
         "fabpot/goutte": "^3.1",
